@@ -36,28 +36,28 @@ In this project, you build an app that displays a scoreboard for an American foo
 
 #### Adding Team Scores to the Component's State
 
-- [ ] Import the `useState` hook
-- [ ] Set up the state values for the Lions team score using the state hook
+- [x] Import the `useState` hook
+- [x] Set up the state values for the Lions team score using the state hook
 
 ```js
 const [value, setValue] = useState(); // Give these better names, and decide whether you want to pass an initial score into the state hook as the initialValue
 ```
 
-- [ ] Set up the state value for the Tigers team score using a second state hook call
+- [x] Set up the state value for the Tigers team score using a second state hook call
 
 #### Render the Scores to the DOM
 
-- [ ] The scores in the JSX are currently hardcoded to 32 points each. Remove the hardcoded values
-- [ ] Render the state values from what we just set up in steps 1 and 2
-- [ ] Play around with different initial values to test if they are rendering on the DOM correctly
+- [x] The scores in the JSX are currently hardcoded to 32 points each. Remove the hardcoded values
+- [x] Render the state values from what we just set up in steps 1 and 2
+- [x] Play around with different initial values to test if they are rendering on the DOM correctly
 
 #### Add Click Functionality to Increment the Scores
 
-- [ ] Add the `onClick` handler to each function
-- [ ] Determine how much you will need to increment the score for each button
-  - [ ] A touchdown is worth 7 points (assume the following extra point is made)
-  - [ ] A field goal is worth 3 points
-- [ ] Inside the click handlers on each button, use the setter functions for each team to increment the appropriate team's score by the correct amount.
+- [x] Add the `onClick` handler to each function
+- [x] Determine how much you will need to increment the score for each button
+  - [x] A touchdown is worth 7 points (assume the following extra point is made)
+  - [x] A field goal is worth 3 points
+- [x] Inside the click handlers on each button, use the setter functions for each team to increment the appropriate team's score by the correct amount.
 
 ### Task 2b: Exit Ticket
 
@@ -81,15 +81,15 @@ After finishing your required elements, you can push your work further. These go
 
 Start building a game of **Tic Tac Toe** in React. The positions of the 'Xs' and the 'Os' over time need to be maintained in a slice of state at the top-level component, so that the JSX may display the contents of the 3 x 3 grid correctly. Only empty squares may be selected by the human player, and the event handler that deals with these clicks will have to include quite a bit of logic:
 
-  1. Does the latest move by the human player mean **the game is over**? (Game over, then!)
-  1. Is the game **immediately winnable by the computer** by making a certain move? (Do it!)
-  1. Can the computer **block the human from winning on their next move** by making certain move? (Do it!)
-  
+1. Does the latest move by the human player mean **the game is over**? (Game over, then!)
+1. Is the game **immediately winnable by the computer** by making a certain move? (Do it!)
+1. Can the computer **block the human from winning on their next move** by making certain move? (Do it!)
+
 The move by the computer should probably be random if the previous checks turn out negative, but you'll be surprised at how smart the "game engine" will feel.
 
 Have fun!
 
 ## Submission Format
 
-* [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
-* [ ] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your PR
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's Repo). **Please don't merge your own pull request**
+- [ ] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your PR
